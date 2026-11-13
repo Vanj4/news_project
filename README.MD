@@ -8,7 +8,7 @@
 # 1. 在根目录创建并激活虚拟环境
 python -m venv .venv
 .venv\Scripts\activate   # Windows
-# source .venv/bin/activate # Mac/Linux
+source .venv/bin/activate # Mac/Linux
 
 # 2. 安装后端依赖
 pip install -r news_backend/requirements.txt
